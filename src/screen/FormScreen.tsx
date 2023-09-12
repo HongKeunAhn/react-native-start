@@ -23,6 +23,8 @@ const FormScreen = () => {
   ) => {
     const { text } = event.nativeEvent;
 
+    setInput(text);
+
     storeData(text);
   };
 
